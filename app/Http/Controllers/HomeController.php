@@ -12,4 +12,9 @@ class HomeController extends Controller
         $posts = Post::all()->sortByDesc('created_at');
         return view('index', ['posts' => $posts]);
     }
+
+    public function create()
+    {
+        return view('posts.create');
+    }
 }
