@@ -25,5 +25,8 @@ return [
     'PASSWORD'           => 'パスワード',
     'PASSWORD_CONFIRM'   => 'パスワード確認',
     'LOGIN_HERE'         => 'ログインはこちら',
+    'USER_ENTRY_HERE'    => 'ユーザー登録はこちら',
+    'TITLE'              => 'タイトル',
+
 
 ];
