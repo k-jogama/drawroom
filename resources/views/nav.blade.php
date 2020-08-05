@@ -16,13 +16,13 @@
 
     @guest
     <li class="nav-item">
-      <a class="nav-link" href="">{{ config('const.LOGIN') }}</a>
+      <a class="nav-link" href="{{ route('login') }}">{{ config('const.LOGIN') }}</a>
     </li>
     @endguest
 
     @auth
     <li class="nav-item">
-      <a class="nav-link" href=""><i class="fas fa-pen mr-1"></i>{{ config('const.TOPOST') }}</a>
+      <a class="nav-link" href="{{ route('home.create') }}"><i class="fas fa-pen mr-1"></i>{{ config('const.TOPOST') }}</a>
     </li>
     @endauth
 
