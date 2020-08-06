@@ -39,10 +39,10 @@
       </h4>
     </div>
     <div class="card-body">
-      <div>{{ $post['text'] }}</div>
+      <div>{{ $post['body'] }}</div>
       <div class="text-right mt-5">
-        <span class="ml-3 small">{{ config('const.CONTRIBUTOR') }}：<a href="">{{ $post['contributor'] }}</a></span>
-        <span class="ml-3 small">{{ config('const.POSTDATE') }}：{{ $post['postdate'] }}</span>
+        <span class="ml-3 small">{{ config('const.CONTRIBUTOR') }}：<a href="">{{ $post['username'] }}</a></span>
+        <span class="ml-3 small">{{ config('const.POSTDATE') }}：{{ $post['created_at'] }}</span>
         <span class="ml-3 small">{{ config('const.WORKLOCATION') }}：{{ $post['worklocation'] }}</span>
         <span class="ml-3 small">{{ config('const.DELIVERYDATE') }}：{{ $post['deliverydate'] }}</span>
       </div>
